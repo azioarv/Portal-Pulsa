@@ -1,4 +1,4 @@
-#Portal Pulsa API
+Portal Pulsa API
 
 
 ----------
@@ -6,30 +6,30 @@
 
 Package for Laravel 5
 [Official Documentation](http://portalpulsa.com/api-transaksi-pulsa-murah/)
-##Installation
+Installation
     composer require azioarv/portalpulsa
    
 Add the following code to config/app.php
-####Provider
+Provider
 ```php
 AzioArv\PortalPulsa\PortalPulsaServiceProvider::class
 ```
-####Aliases
+Aliases
 ```php
 'Pulsa' => AzioArv\PortalPulsa\PortalPulsaFacade::class
 ```
-####Run This Command
+Run This Command
 
     php artisan vendor publish
     
-##Configuration
-####.env
+Configuration
+.env
 
     PULSA_ID=<your_id>
     PULSA_KEY=<your_key>
     PULSA_SECRET=<your_secret>
 
-##Usage
+Usage
 Check Saldo
 ```php
 Pulsa::saldo();
