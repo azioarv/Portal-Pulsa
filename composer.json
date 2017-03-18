@@ -1,0 +1,12 @@
+{
+    "name": "azioarv/portalpulsa",
+    "description": "Portal Pulsa API with Laravel 5",
+    "authors": [
+        {
+            "name": "Azio Azravi",
+            "email": "contact@azioarv.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
