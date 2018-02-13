@@ -8,9 +8,9 @@ Package for Laravel 5
 [Official Documentation](http://portalpulsa.com/api-transaksi-pulsa-murah/)
 Installation
 
-'''
+```
     composer require azioarv/portalpulsa
-'''
+```
    
 Add the following code to config/app.php
 Provider
@@ -53,5 +53,3 @@ Process PLN Transcation
 ```php
 Pulsa::prosesPLN($productCode,$phoneNumber,$plnNumber,$transactionID);
 ```
-
-Note : ``` $transcationID``` fill by your
