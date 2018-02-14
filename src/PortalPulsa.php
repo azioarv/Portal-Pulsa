@@ -114,7 +114,7 @@ class PortalPulsa {
 	 * @param  String $nomor     Customer Phone Number
 	 * @param  String $custNomor Customer PLN Number
 	 * @param  String $id        Transaction id (like bill number)
-	 * @return [type]            [description]
+	 * @return Array
 	 */
 	public function prosesPLN($code,$nomor,$custNomor,$id){
 		$data = array( 
